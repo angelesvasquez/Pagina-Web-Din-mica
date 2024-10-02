@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family:  'Poppins', Helvetica;
+    background: linear-gradient(
+        180deg,
+        rgb(89, 104, 165) 0%,
+        rgb(4, 5, 77) 100%
+    );
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    min-height: 100dvh;
+}
+form {
+    margin: 60px;
+    background-image: url(Imagenes/imag7.jpg);
+    background-position: center bottom;
+    background-size: cover;
+    padding: 40px;
+    width: 500px;
+    box-shadow: 0 0 30px rgba(19, 2, 72, 0.785);
+}
+h1{
+    color: white;
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+h2{
+    
+    font-size: 16px;
+    font-weight: 400;
+}
+.cuadro_text, .cuadro_option, .cuadro_list{
+    position: relative;
+    color: white;
+    font-size: 15px;
+    align-items: center;
+}
+
+.cuadro_text input ,.cuadro_text textarea, .cuadro_list input{
+    padding: 10px 20px 10px 15px;
+    width: 100%;
+    margin: 10px 0px;
+    border-radius: 6px;
+    background-color: transparent;
+    border: 2px solid #a4abff;
+    font-size: 14px;
+    outline: none;
+    color: white;
+    color-scheme: dark;
+
+}
+
+.cuadro_text select{
+    margin: 10px 0px;
+    padding: 15px;
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    background:rgb(47, 62, 145);
+    border-radius: 6px;
+    cursor: pointer;
+    border: 2px solid #a4abff;
+    scrollbar-color: #ffffffdb transparent;
+}
+.cuadro_option input {
+    margin: 5px;
+    cursor: pointer;
+ }
+ .cuadro_option legend {   
+    margin-bottom: 10px;
+}
+.cuadro_text .agregar{
+    background-image: url(Imagenes/añadir.png);
+    background-size: cover;
+    background-position: center;
+    background-color: transparent;
+    border: none;
+    width: 60px;
+    height: 60px;
+    outline: none;
+    cursor: pointer;
+}
+.cuadro_send {
+    display: flex;
+    justify-content: center;
+}
+.cuadro_text .eliminar{
+    background-color: rgb(137, 23, 50);
+    color: white;
+    padding: 8px 15px;
+    margin: 5px 0px;
+    border: none;
+    border-radius: 6px;
+}
+.enviar{
+    padding: 10px 30px;
+    background-color: rgba(22, 27, 102, 0.955);
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
